@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .logo{
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 160px;
+}
+
+ul li{
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 6px;
+    display: inline-block;
+    padding-right: 45px;
+}
+
+ul li a:hover{
+    color: rgb(80, 105, 230);
+    font-size: 1.1em;
+}
+
+button{
+    width: 120px;
+}
+
+.contact{
+    margin-left: 65px;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(46, 188, 228);
+}
+
+.intro{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(22, 40, 47, 0), rgb(20, 53, 65));
+}
+
+.intro .intro1{
+    margin: auto;
+    margin-left: 5%;
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 50%;
+}
+
+.intro-button{
+    margin-top: 30px;
+}
+
+.intro-button button{
+    margin-right: 20px;
+    padding: 7px;
+    border-radius: 35%;
+    background: skyblue;
+}
+
+.intro-button button:hover{
+    font-weight: 600;
+    background: rgb(74, 151, 253);
+}
+
+.intro2{
+    margin-right: 90px;
+}
+
+.intro-image{
+    height: 100%;
+    width: 100%;
+}
