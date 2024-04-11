@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -18,10 +24,10 @@
                         <span>Dhananjay</span>
                     </li>
                     <li><a>Portfolio</a></li>
-                    <li><a>About Me</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Contact Me</a></li>
-                    <li><a>Resume</a></li>
+                    <li><a href="#intro">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#connect">Contact Me</a></li>
+                    <li><i class="fas fa-file-download" style="color: rgb(12, 238, 12); margin-right: 5px;"></i><a href="Dhananjay_Resume.pdf" download="Dhananjay_Resume.pdf">Resume</a></li>
                     <li>
                         <button class="contact">Contact</button>
                     </li>
@@ -29,12 +35,31 @@
             </nav>
         </header>
         <div class="main">
-            <section class="intro">
+            <section class="intro" id="intro">
                 <div class="intro1">
-                    <h1>I'M <span style="color: aqua;">DEVELOPER</span><br><span>DHANANJAY SHINDE</span></h1>
+                    <h1>I'M <span style="color: aqua;"> WEB DEVELOPER</span><br><span style="font-size: xx-large;">DHANANJAY SHINDE</span></h1>
                     <span>Hi, this is Dhananjay Shinde. A passionate MEAN/ MERN stack developer from India. I am
                         currently working in Infosys.I have a 2 years of work experience as a full stack
                         developer.</span>
+                    <div class="icons">
+                        <a>
+                            <img src="https://res.cloudinary.com/dappyiksi/image/upload/v1711691172/user_e19glg.png"
+                                alt="user">
+                        </a>
+                        <a href="https://www.instagram.com/dhananjay-shinde-igsh=ZHBhMnEyYTVqMGNp">
+                            <img src="https://res.cloudinary.com/dappyiksi/image/upload/v1711691134/instagram_1_ut3xqi.png"
+                                alt="insta">
+                        </a>
+                        <a href="https://github.com/Dhananjay-M-Shinde">
+                            <img src="https://res.cloudinary.com/dappyiksi/image/upload/v1711691132/github_gds2dm.png"
+                                alt="git">
+                        </a>
+                        <a href="www.linkedin.com/in/dhananja
+                        y-shinde-1099241a9">
+                            <img src="https://res.cloudinary.com/dappyiksi/image/upload/v1711691137/linkedin_1_py2fh2.png"
+                                alt="linkedin">
+                        </a>
+                    </div>
                     <div class="intro-button">
                         <button>Hire me</button>
                         <button>Play Video</button>
@@ -57,7 +82,7 @@
                         <div class="card">
                             <img src="web card.png" alt="image">
                             <h2>FRONTEND DEVELOPEMNT</h2>
-                            <p><i class="fas fa-trophy"></i>Focus on creating user-friendly and responsive web experiences. I leverage my skills in
+                            <p>Focus on creating user-friendly and responsive web experiences. I leverage my skills in
                                 HTML, CSS, and JavaScript to bring designs to life.</p>
                         </div>
                         <div class="card">
@@ -184,7 +209,7 @@
                     </div>
                 </div>
             </section>
-            <section class="projects">
+            <section class="projects" id="projects">
                 <div class="projects-content">
                     <h1 class="headline">My Projects</h1>
                     <span>Hi, checkout the projects that I have completed</span>
@@ -192,7 +217,7 @@
                 <div class="projects-card">
                     <div class="cards">
                         <img src="Dashboard page.png" alt="image">
-                        <h2>ExpensFY</h2>
+                        <h2>ExpensiFy</h2>
                         <p>I built Expensify, a Daily expense management application.Key features include user
                             registration, login, expense categorization, expense management (add,
                             delete, edit), monthly expense summaries by category, and data visualization with
@@ -209,9 +234,9 @@
                             branches, and sales. Gain valuable insights, optimize operations, and boost efficiency for
                             success.
                             <br><br>
-                        Tech Stack: Angular, NodeJs, ExpressJs, MongoDB, ChartJs, Bootstrap, JWT, Bcrypt.
+                            Tech Stack: Angular, NodeJs, ExpressJs, MongoDB, ChartJs, Bootstrap, JWT, Bcrypt.
                         </p>
-                        
+
                     </div>
                     <div class="cards">
                         <img src="Dashboard page.png" alt="image">
@@ -222,7 +247,7 @@
                             <br><br>
                             Tech Stack: Angular, NodeJs, ExpressJs, MongoDB, Bootstrap, JWT, Bcrypt.
                         </p>
-                        
+
                     </div>
                     <div class="cards">
                         <img src="Dashboard page.png" alt="image">
@@ -232,7 +257,7 @@
                             <br><br>
                             Tech Stack: React, NodeJs, ExpressJs, MongoDB, ChartJs, Material-UI, JWT, Bcrypt.
                         </p>
-                        
+
                     </div>
                 </div>
                 <div></div>
@@ -242,12 +267,18 @@
                 <div class="certification-sub">
                     <div class="achievement">
                         <h2>Achievements</h2>
-                        <p><i class="fas fa-trophy"></i><span>6 months internship at wipro as a fullStack web Developer</span></p>
-                        <p><i class="fas fa-trophy"></i><span>6 months internship at wipro as a fullStack web Developer</span></p>
-                        <p><i class="fas fa-trophy"></i><span>6 months internship at wipro as a fullStack web Developer</span></p>
-                        <p><i class="fas fa-trophy"></i><span>6 months internship at wipro as a fullStack web Developer</span></p>
-                        <p><i class="fas fa-trophy"></i><span>6 months internship at wipro as a fullStack web Developer</span></p>
-                        <p><i class="fas fa-trophy"></i><span>6 months internship at wipro as a fullStack web Developer</span></p>
+                        <p><i class="fas fa-trophy"></i><span>6 months internship at wipro as a fullStack web
+                                Developer</span></p>
+                        <p><i class="fas fa-trophy"></i><span>6 months internship at wipro as a fullStack web
+                                Developer</span></p>
+                        <p><i class="fas fa-trophy"></i><span>6 months internship at wipro as a fullStack web
+                                Developer</span></p>
+                        <p><i class="fas fa-trophy"></i><span>6 months internship at wipro as a fullStack web
+                                Developer</span></p>
+                        <p><i class="fas fa-trophy"></i><span>6 months internship at wipro as a fullStack web
+                                Developer</span></p>
+                        <p><i class="fas fa-trophy"></i><span>6 months internship at wipro as a fullStack web
+                                Developer</span></p>
                     </div>
                     <div class="certificate">
                         <h2>Certifications</h2>
@@ -258,14 +289,18 @@
                         <p><i class="fas fa-certificate"></i><span>Infosys certified Agile Developer</span></p>
                         <p><i class="fas fa-certificate"></i><span>Infosys certified Front-end Web Developer</span></p>
                         <p><i class="fas fa-certificate"></i><span>Certified Java 8 Developer</span></p>
-                    </div>      
+                    </div>
                 </div>
             </section>
-            <section class="connect">
+            <section class="connect" id="connect">
                 <div class="menu" id="Connect">
                     <h1 class="headline">Lets Connect &nbsp; <span></span></h1>
                     <p>I'm always open to discuss or connect for
                         development / design work or partnerships.</p>
+                    <p class="resume">
+                       <a href="Dhananjay_Resume.pdf" download="Dhananjay_Resume.pdf"  style="text-decoration: none;">Download Resume</a>
+                       <i class="fas fa-file-download download" style="color: rgb(12, 238, 12); margin-right: 5px;"></i>
+                    </p>
                     <div class="connectiondata">
                         <form id="my-form" class="vertical-form" action="https://formspree.io/f/xpzvolrz" method="POST">
                             <!-- <label for="name">Name <span style="color: red;">*</span></label> -->
@@ -282,7 +317,7 @@
                             <img src="https://res.cloudinary.com/dappyiksi/image/upload/v1711691170/undraw_Connecting_Teams_re_hno7_xjgp13.png"
                                 alt="connectImg">
                         </div>
-                        
+
                     </div>
                 </div>
             </section>

@@ -32,3 +32,15 @@ var form = document.getElementById("my-form");
       });
     }
     form.addEventListener("submit", handleSubmit)
+
+    const navLinks = document.querySelectorAll('a[href^="#"]');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+        const targetSection = document.getElementById(this.hash.slice(1));
+        if (targetSection) {
+            e.preventDefault(); // Prevent default anchor link behavior
+            targetSection.scrollIntoView({ behavior: "smooth" });
+        }
+        });
+    });

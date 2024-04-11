@@ -1,8 +1,10 @@
 body{
   background-color: black;
   color: white;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 
 html{
@@ -19,13 +21,19 @@ font-size: 2.5em;
   align-items: center;
   justify-content: center;
   position: sticky;
-  top: 10px;
+  top: 0px;
+  background-color: rgb(6, 6, 18);
 }
 
 .menu .logo{
   font-size: large;
   padding-left: 20px;
   padding-right: 160px;
+}
+
+.menu a{
+text-decoration: none;
+color: white;
 }
 
 ul li{
@@ -58,7 +66,9 @@ button{
   display: flex;
   align-items: center;
   width: 100%;
-  background: linear-gradient(to right, rgba(22, 40, 47, 0), rgb(20, 53, 65));
+  width: 100%;
+  /* background: linear-gradient(to right, rgba(13, 23, 27, 0), rgb(7, 25, 31)); */
+  background: linear-gradient(to right, #070605, rgb(15, 14, 14));
 }
 
 .intro1, .intro2{
@@ -71,6 +81,10 @@ button{
     padding-right: 30px;
 }
 
+.intro1 h1{
+text-shadow: 3px 3px 4px rgb(219, 5, 5);
+}
+
 .intro-button{
   margin-top: 30px;
 
@@ -80,10 +94,8 @@ button{
   margin-right: 20px;
   padding: 7px;
   border-radius: 15px;
-  background: skyblue;
-  justify-content: center;
-  align-items: center;
-}
+  background: linear-gradient(to right, rgb(25, 192, 229), rgb(19, 235, 181));
+} 
 
 .intro-button button:hover{
   font-weight: 900;
@@ -102,14 +114,37 @@ button{
   clear: both;
 }
 
+.icons img {
+  width: 7%;
+  height: 7%;
+  /* margin-left: 5px; */
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.icons a {
+  text-decoration: none;
+}
+
+.icons{
+margin-top: 20px;
+}
+
+.icons img:hover {
+  border: 1px solid white;
+  box-shadow: 3px 3px 3px orange;
+  transition: all 0.1s ease-out;
+  cursor: pointer;
+}
+
 .services{
   padding-top: 40px;
   /* max-height: 700px; */
   padding-bottom: 40px;
   max-width: 100%;
   display: flex;
-  background: linear-gradient(to right, rgba(34, 55, 67, 0), rgb(13, 57, 71));
-}
+  background: linear-gradient(to right, #070605, rgb(9, 18, 21));  }
 
 .services-content, .services-card{
   width: 50%;
@@ -120,7 +155,7 @@ button{
 }
 
 .services-content span{
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   color: rgb(207, 204, 204);
 }
 
@@ -164,8 +199,7 @@ width: 100vw;
 display: flex;
 /* gap: 1px; */
 justify-content:space-around;
-background: linear-gradient(to right, rgb(40, 65, 84), rgb(9, 33, 40));
-}
+background: linear-gradient(to right, #0f0912, rgb(70, 0, 0));}
 
 .stats li{
 margin: 20px;
@@ -183,8 +217,7 @@ font-size: .9em;
 
 .about-main{
 padding: 50px;
-background: linear-gradient(to right, rgba(22, 40, 47, 0), rgb(14, 37, 45));
-
+background: linear-gradient(to right, #070605, black);
 }
 
 .about-sub {
@@ -218,7 +251,7 @@ margin-bottom: 90px;
 .edu-skills, .skills{
 width: 50%;
 padding: 20px;
-letter-spacing: 1.5px;
+/* letter-spacing: 1.5px; */
 }
 
 .container { 
@@ -255,8 +288,7 @@ display: block;
 text-align: center;
 justify-content: center;
 padding-top: 30px;
-background: linear-gradient(to right, rgba(22, 40, 47, 0), rgb(19, 51, 61));
-}
+background: linear-gradient(to right, #070605, black);}
 
 .projects-card{
 display: grid;
@@ -274,14 +306,14 @@ margin-right: 60px;
 .cards{
   border: 1px solid skyblue;
   border-radius: 8px;
-  /* height: 250px; */
+  /* height: auto; */
   /* width: 90%; */
   display: block;
   padding: 10px;
   text-align: center;
   overflow: hidden;
   margin-bottom: 15px;
-  font-weight: 600;
+  /* font-weight: 600; */
   /* margin-right: 15px; */
   background-color: rgb(19, 41, 57);
   font-size: small;
@@ -299,8 +331,7 @@ border-radius: 10px;
 
 .certification{
 padding: 30px;
-background: linear-gradient(to right, rgba(53, 128, 97, 0), rgb(9, 30, 34));
-}
+background: linear-gradient(to right, #070605, black);}
 
 .certification h1{
 display: flex;
@@ -317,6 +348,14 @@ align-items:start;
 justify-content: space-between;
 }
 
+.achievement p{
+background: linear-gradient(to right, rgb(188, 235, 195), rgb(242, 150, 164), rgb(133, 248, 198));
+}
+
+.certificate p{
+background: linear-gradient(to right, rgb(132, 192, 235), rgb(242, 150, 164), pink);
+}
+
 .achievement p, .certification p{
 padding: 7px;
 border: 1px solid skyblue;
@@ -326,7 +365,7 @@ background-color: aliceblue;
 color: black;
 font-size: larger;
 font-weight: 500;
-letter-spacing: 0px;
+/* letter-spacing: 0px; */
 background-color:beige;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -334,6 +373,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 .fa-trophy{
 margin-right: 10px;;
 color: rgb(246, 213, 32);
+/* z-index: 100; */
 }
 
 .fa-certificate{
@@ -342,8 +382,19 @@ color: rgb(246, 213, 32);
 }
 
 .connect{
-background: linear-gradient(to right, rgba(22, 40, 47, 0), rgb(20, 53, 65));
+background: linear-gradient(to right, rgba(5, 9, 11, 0), rgb(3, 7, 8));
 padding: 20px;
+}
+
+.resume a{
+color:rgb(13, 119, 161);
+font-weight: 600;
+font-size: 1.2em;
+}
+
+.resume i{
+font-size: 1.3em;
+margin-left: 5px;
 }
 
 .vertical-form {
@@ -435,6 +486,7 @@ font-size: larger;
 color: black;
 }
 .footer {
+max-width: 100%;
 height: 10%;
 border-radius: 2px;
 background-color: #2b2a2a;
@@ -462,20 +514,22 @@ color: #f3f3f3;
 text-decoration: none;
 }
 
-@media (max-width: 768px) {  /* Adjust the breakpoint as needed */
+@media (max-width: 768px) {
 
   .intro {
-    flex-direction: column;  /* Stack elements on smaller screens */
+    flex-direction: column;
     width: 100%;
     height: auto
   }
 
   .intro1, .intro2 {
-    width: 100%;  /* Make elements full-width on smaller screens */
+    /* padding-left: 7%; */
+    display: block;
+    width: 100%;
   }
 
   .intro-image {
-    margin-bottom: 0;  /* Remove bottom margin for smaller screens */
+    margin-bottom: 0;
     width: 50%;
     display: flex;
     margin: auto;
@@ -483,14 +537,16 @@ text-decoration: none;
 
   .intro1{
       order: 2;
-      padding:0px;
+      /* padding:0px; */
   }
 
   .services{
     height:fit-content;
     display: flex;
     text-align: center;
-    flex-direction: column
+    flex-direction: column;
+    padding: auto;
+    margin: auto;
   }
 
   .services-content{
@@ -512,6 +568,15 @@ text-decoration: none;
     max-height: 300px;
   }
 
+  .stats{
+    margin: 0px;
+    width: 100vw;
+    font-size: small;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background:linear-gradient(to right, #070605, rgb(102, 62, 62));
+  }
+
   .about{
     display: flex;
     flex-direction: column;
@@ -529,5 +594,34 @@ text-decoration: none;
 
   .edu-skills, .skills{
     width: 100%;
+  }
+
+  .about-main{
+    margin: 10px;
+    padding: 0px;
+    display: block;
+    justify-content: center;
+  }
+
+  .projects{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    background: linear-gradient(to right, #070605, black);
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .projects-card{
+    display: block;
+    margin: 20px;
+    padding: 0px;
+  }
+
+  .certification-sub{
+    margin: 20px;
+    padding: 0px;
+    display: block;
   }
 }
