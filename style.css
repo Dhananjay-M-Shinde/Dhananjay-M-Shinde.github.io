@@ -516,6 +516,10 @@ text-decoration: none;
 
 @media (max-width: 768px) {
 
+ .navbar{
+  display: none;
+ }
+
   .intro {
     flex-direction: column;
     width: 100%;
