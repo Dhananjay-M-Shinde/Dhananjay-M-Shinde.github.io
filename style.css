@@ -172,7 +172,7 @@ margin-top: 20px;
 .card{
   border: 1px solid skyblue;
   border-radius: 5px;
-  height: 350px;
+  height: 250px;
   /* width: 90%; */
   display: block;
   padding: 20px;
@@ -317,7 +317,7 @@ margin-right: 60px;
 .cards{
   border: 1px solid skyblue;
   border-radius: 8px;
-  height: 650px;
+  height: auto;
   padding-bottom: 10px;
   display: block;
   padding: 10px;
