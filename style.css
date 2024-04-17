@@ -5,6 +5,7 @@ body{
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
+  font-size: small;
 }
 
 html{
@@ -529,7 +530,7 @@ text-decoration: none;
 color: rgb(218, 55, 239);
 font: bolder;
 font-family: cursive;
-font-size: x-large;
+font-size: large;
 /* background-color: ; */
 }
 
@@ -541,6 +542,7 @@ font-size: x-large;
 
 .body{
   overflow-x: hidden;
+  font-size: small;
 }
 
 .headline {
@@ -560,6 +562,7 @@ font-size: x-large;
     width: 100%;
     height: auto;
     margin-bottom: 0px;
+    font-size: small;
   }
 
   .intro1, .intro2 {
@@ -614,7 +617,8 @@ font-size: x-large;
     gap: 0px;
     padding:3px;
     width: auto;
-    height: auto;
+    height: 275px;
+    font-size: 70%;
   }
 
   .stats{
@@ -703,6 +707,7 @@ font-size: x-large;
   }
 
   .cards{
+    font-size: 80%;
     height: auto;
   }
 
@@ -755,10 +760,14 @@ font-size: x-large;
     font-size: 1em;
   }
 
+  .footer ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
+  }
+
   .footer ul li{
     margin: 5px;
-    display: inline;
-    justify-content: center;
   }
 
 }
