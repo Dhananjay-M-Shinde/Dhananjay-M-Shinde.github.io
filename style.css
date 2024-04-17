@@ -5,7 +5,7 @@ body{
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
-  font-size: small;
+  font-size: medium;
 }
 
 html{
@@ -542,7 +542,7 @@ font-size: large;
 
 .body{
   overflow-x: hidden;
-  font-size: small;
+  font-size: medium;
 }
 
 .headline {
@@ -562,7 +562,7 @@ font-size: large;
     width: 100%;
     height: auto;
     margin-bottom: 0px;
-    font-size: small;
+    font-size: medium;
   }
 
   .intro1, .intro2 {
@@ -618,14 +618,14 @@ font-size: large;
     padding:3px;
     width: auto;
     height: 275px;
-    font-size: 70%;
+    font-size: medium;
   }
 
   .stats{
     padding-left: 20px;
     margin: 0px;
     width: 100vw;
-    font-size: small;
+    font-size: medium;
     /* display: grid; */
     grid-template-columns: repeat(4, 1fr);
     background: linear-gradient(to right, #3e065f, #700b97);
@@ -707,7 +707,7 @@ font-size: large;
   }
 
   .cards{
-    font-size: 80%;
+    font-size: medium;
     height: auto;
   }
 
